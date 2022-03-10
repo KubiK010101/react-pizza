@@ -1,0 +1,23 @@
+.button {
+    background: linear-gradient(114.93deg, #618967 5.11%, #72a479 94%);
+    border-radius: 10px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    &__text {
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            display: block;
+            top: 7px;
+            bottom: 7px;
+            right: 0;
+            width: 1px;
+            height: auto;
+            background: rgba(255, 255, 255, 0.3);
+        }
+    }
+}

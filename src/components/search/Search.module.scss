@@ -1,0 +1,10 @@
+.search {
+  padding: 15px 48px;
+  background: #504b4a;
+  border-radius: 10px;
+  color: #FFFFFF;
+  &:focus{
+      text-decoration: none;
+      outline: none;
+  }
+}

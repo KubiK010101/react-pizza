@@ -1,0 +1,35 @@
+.navbar {
+  padding-top: 23px;
+  padding-bottom: 23px;
+  background-color: #403c3b;
+  &__logo {
+    max-width: 100px;
+    height: auto;
+    max-height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+  }
+  &__number {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffff;
+    position: relative;
+    &::before{
+        content: " ";
+        position: absolute;
+        background-image: url(../../img/phone.svg);
+        left: -40px;
+        top: -10px;
+        width: 33px;
+        height: 33px;
+        background-repeat: no-repeat;
+    }
+  }
+  &__contacts {
+    font-size: 12px;
+    line-height: 20px;
+    color: #cfcfcf;
+  }
+}

@@ -1,0 +1,40 @@
+.card {
+  width: 100%;
+  max-width: 330px;
+  background: linear-gradient(90deg, #494544 0%, #504b4a 100%);
+  border-radius: 10px;
+  // filter: drop-shadow(0px 30px 45px rgba(43, 40, 40, 0.6));
+  &:hover {
+  box-shadow: 0 30px 45px rgba(43, 40, 40, 0.6);
+
+  }
+  &__title{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+  &__weight{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+  }
+  &__description{
+    font-size: 13px;
+    line-height: 17px;
+    color: #CFCFCF;
+    padding-bottom: 15px;
+  }
+  &__price{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;    
+    color: #FFFFFF; 
+  }
+  &__img {
+  overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
